@@ -1,0 +1,156 @@
+ext:doc | ext:docx | ext:odt | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv
+intitle:index.of
+ext:xml | ext:conf | ext:cnf | ext:reg | ext:inf | ext:rdp | ext:cfg | ext:txt | ext:ora | ext:ini | ext:env
+ext:sql | ext:dbf | ext:mdb | ext:log
+ext:bkf | ext:bkp | ext:bak | ext:old | ext:backup
+inurl:login | inurl:signin | intitle:Login | intitle:"sign in" | inurl:auth
+site:stackoverflow.com
+site:pastebin.com | site:paste2.org | site:pastehtml.com | site:slexy.org | site:snipplr.com | site:snipt.net | site:textsnip.com | site:bitpaste.app | site:justpaste.it | site:heypasteit.com | site:hastebin.com | site:dpaste.org | site:dpaste.com | site:codepad.org | site:jsitor.com | site:codepen.io | site:jsfiddle.net | site:dotnetfiddle.net | site:phpfiddle.org | site:ide.geeksforgeeks.org | site:repl.it | site:ideone.com | site:paste.debian.net | site:paste.org | site:paste.org.ru | site:codebeautify.org  | site:codeshare.io | site:trello.com 
+"PHP Parse error" | "PHP Warning" | "PHP Error"
+inurl:index.php?id=
+inurl:buy.php?category=
+inurl:pageid=
+inurl:page.php?file=
+inurl:'@gmail.com'
+inurl:'@yahoo.com'
+inurl:'@hotmail.com'
+inurl:'@msn.com'
+inurl:'e=' 'refer'
+inurl:'tellapal.id'
+inurl:url=https
+inurl:url=http
+inurl:u=https
+inurl:u=http
+inurl:redirect?https
+inurl:redirect?http
+inurl:redirect=https
+inurl:redirect=http
+inurl:link=http
+inurl:link=https
+filetype:action
+intitle:"index of /" +.htdocs
+intitle:"Index of /" +.htaccess
+intitle:"index of" "nginx.log"
+"radius-server key" ext:cfg OR ext:log OR ext:txt
+inurl:"/arcgis/rest/services"
+inurl:"/jmx-console/HtmlAdaptor?action"
+intitle:"index of" and intext:"vendor" and intext:"phpunit"
+inurl:logon/LogonPoint/index.html
+intitle:"index of" "admin/xml"
+inurl:*/wp-admin/install.php intitle:WordPress Installation
+inurl:"index.php?db="
+intitle:Administration - Installation - MantisBT
+inurl:/phpmyadmin/index.php?db=
+intitle: "phpshell" "Php Safe-Mode Bypass"
+intitle:admin intitle:login
++htpasswd +WS_FTP.LOG filetype:log
+intitle:"index of" "tomcat-users.xml"
+intitle:"index of" "/ftpusers"
+intitle:"index of" "users.sql"
+allintext:username filetype:log
+intitle:"index of" service.grp
+intitle:index.of "users.db"
+"username.xlsx" ext:xlsx
+inurl:/_layouts/mobile/view.aspx?List=
+"authentication failure; logname=" ext:log
+inurl:/profile.php?lookup=1
+intext:"root:x:0:0:root:/root:/bin/bash" inurl:*=/etc/passwd
+intitle:index.of .bash_history
+intitle:index.of .sh_history
+intitle:.vimsrc
+intitle:*.swp
+ititle:*.conf
+intitle:.config
+intitle:"index of" "firewall.log" | "firewall.logs"
+intitle:"index of" "/000~ROOT~000/"
+"Share Link" inurl:/share.cgi?ssid=
+intitle:"index of" /lsass.exe
+intitle:"index of" /var/logs filetype:'"log | txt | csv"
+Index: /wp-includes/Text/Diff
+intitle:"Index of /" +.htaccess.old
+intitle:"index of" "/root/etc/security/"
+intitle:"Index of c:xampp"
+intitle:"index of" "app.log"
+intitle:"index of" "/home/ROOT_PATH/"
+intitle:"index of" "ssh_host_ecdsa_key"
+intitle:"index of" "oauth-private.key"
+intext:"INTERNAL USE ONLY" ext:doc OR ext:pdf OR ext:xls OR ext:xlsx
+inurl:_vti_pvt/service.pwd
+inurl:admin/data* intext:index of
+intitle:"index of" "admin/sql/"
+"index of" "svg"
+intitle:"index of" "survey.cgi"
+intitle:index of logs.tar
+"index of" "fileadmin"
+intitle:"Dashboard [Jenkins]"
+intitle:"index of" "uploads.old"
+intitle:"index of" inurl:ftp intext:admin
+intitle:"index of" "system/config"
+intitle:"index of" "admin/config"
+"index of" "/config/sql"
+intitle:"index of" "/admin/backup"
+intitle:"index of" "/admin_backup"
+intitle:"index of" "git-jira-log"
+intitle:"index of" db.frm
+intitle:"index of" "/db_backups/"
+intitle:"index of" "maven-metadata.xml" "Port 80"
+intitle:"index of" "apache-log-parser" "Port 80"
+intitle:"index of" "config.py"
+intext:"index of /" ".composer-auth.json"
+inurl:"/includes/OAuth2" intext:"index of /"
+intitle:index.of "db.zip"
+intitle:"index of" "*php.swp"
+intitle:index.of "backwpup"
+intitle:"index of" .zshrc~ OR .zshrc OR .zshenv OR .zshenv~ -pool -public
+intitle:"index of" api_key OR "api key" OR apiKey -pool
+intext:"index of" intext:.bak intext:config
+site:* index.of: /android/manifest.xml
+indexof:backup/web.config
+inurl:wp-content intext:backup-db
+inurl:/wp-admin/includes/plugin-install.php
+inurl:/database* ext:sql intext:index of -site:github.com
+inurl:*/wordpress/wordpress.bak/
+"index of" "Production.json"
+intitle:"index of" "nrpe.cfg"
+index.of.?.frm
+inurl:"index.php?id=" intext:"Warning: mysql_num_rows()"
+intitle:"Error log for /LM/"
+inurl:jboss filetype:log -github.com
+allintext:"API_SECRET*" ext:env | ext:yml
+"Reflector Dashboard" inurl:/db/index.php/
+intitle:"index of" jboss-service.xml
+allintext:username,password filetype:log
+intitle:"index of" exception.log
+intitle:"Index of /" "joomla/database"
+"-----BEGIN RSA PRIVATE KEY-----" inurl:id_rsa
+intitle:"index of" ./bash_history
+intitle:"index of" "id_rsa.pub"
+index of /backend/prod/config
+intitle:"index of" secrets.yml
+intext:"index of /" "config.json"
+index of .svn/text-base/index.php.svn-base
+filetype:sql intext: "sql dump"
+allinurl:index.php?db=information_schema
+"index of" "sshd_config"
+intitle:"index of" "auth.config"
+intitle:"index of" "*root.pem"
+intitle:"index of" "refresh_token.txt" OR "access_token.txt" OR "jsapi_ticket.txt"
+"index of" "wp-config.zip"
+intitle:"Index of" "backup-audio-queue.log" OR "backup-audio.log" OR "backup-mysql.log"
+intitle:"index of" "jsapi_ticket.json"
+intitle:"index of" "token_info.json" OR "get_access_token.json"
+intitle:"index of" "secrets.py"
+intitle:"index of" "google-api-private-key.json"
+intitle:"index of" "oauth-credentials.json"
+inurl:administrator/components/com_comprofiler/plugin.class.php?mosConfig_absolute_path=
+intext:"laravel" ext:env intext:"db_password" -git
+allintext:"redis_password" ext:env
+intext:"db_database" ext:env intext:"db_password"
+allintext:password filetype:log
+filetype:env "DB_PASSWORD"
+index of ".env"
+"config.php.bak" intitle:"index of"
+intitle:"index of" "db.connection.js"
+"create account" admin ext:cfg
+intitle:"index of" "credentials.yml"
+

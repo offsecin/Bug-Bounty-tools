@@ -900,6 +900,9 @@ alias Bheem=/root/arsenal/Bheem.sh
 alias reverse=/root/arsenal/reverse.sh
 alias corsy=/root/arsenal/corsy.sh
 " >> /root/.bashrc;
+
+for i in `find /root/tools -name requirements.txt`;do python3 -m pip install -r $i;done
+for i in $(ls /root/go/bin);do echo $i && echo  "alias /root/go/bin/$i" >> .bashrc ;done
 source ~/.bashrc;
 export  PATH=$PATH:/root/go/bin;
 

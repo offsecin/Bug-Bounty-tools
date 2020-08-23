@@ -13,18 +13,9 @@ echo "${RED} #                 tools FOR BUG BOUNTY                  # ${RESET}"
 echo "${RED} ######################################################### ${RESET}"
 logo(){
 echo "${BLUE}
-                ___ ___ _  _ _____     ___
-               | _ ) _ ) || |_   _|_ _|_  )
-               | _ \ _ \ __ | | | \ V // /
-               |___/___/_||_| |_|  \_//___| ${RESET}"
+ ${RESET}"
 }
 logo
-echo ""
-echo "${GREEN} tools created by the best people in the InfoSec Community ${RESET}"
-echo "${GREEN}                   Thanks to everyone!                     ${RESET}"
-echo ""
-
-
 echo "${GREEN} [+] Updating and installing dependencies ${RESET}"
 echo ""
 

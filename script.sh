@@ -30,7 +30,7 @@ echo ""
 
 sudo apt-get -y update
 sudo apt-get -y upgrade
-
+sudo apt-get install mlocate
 sudo add-apt-repository -y ppa:apt-fast/stable < /dev/null
 sudo echo debconf apt-fast/maxdownloads string 16 | debconf-set-selections
 sudo echo debconf apt-fast/dlflag boolean true | debconf-set-selections
@@ -784,6 +784,7 @@ apt-get update && apt-get upgrade;
 sudo apt-get install golang;
 sudo apt-get install python3;
 sudo apt-get install python3-pip;
+sudo apt-get install locate
 sudo apt-get install ruby;
 sudo apt-get install screen;
 sudo apt-get install git;
@@ -900,7 +901,7 @@ alias Bheem=/root/arsenal/Bheem.sh
 alias reverse=/root/arsenal/reverse.sh
 alias corsy=/root/arsenal/corsy.sh
 " >> /root/.bashrc;
-
+sudo updatedb
 for i in `find /root/tools -name requirements.txt`;do python3 -m pip install -r $i;done
 for i in $(ls /root/go/bin);do echo $i && echo  "alias /root/go/bin/$i" >> .bashrc ;done
 source ~/.bashrc;
